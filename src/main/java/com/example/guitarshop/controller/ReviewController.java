@@ -15,6 +15,4 @@ public class ReviewController {
     public Review createReview(@RequestBody Review review) {
         return reviewService.saveReview(review);
     }
-
-    // Другие методы контроллера, если необходимо
 }
