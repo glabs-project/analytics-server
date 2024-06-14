@@ -10,9 +10,7 @@ public class User {
     private String username;
     private String password;
     private String email;
-    // Другие поля, если необходимо
 
-    // Конструкторы
     public User() {
     }
 
@@ -22,7 +20,6 @@ public class User {
         this.email = email;
     }
 
-    // Геттеры и сеттеры
     public String getId() {
         return id;
     }
