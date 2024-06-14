@@ -72,7 +72,6 @@ public class Product {
         this.price = price;
     }
 
-    // Переопределение toString(), если необходимо
     @Override
     public String toString() {
         return "Product{" +
