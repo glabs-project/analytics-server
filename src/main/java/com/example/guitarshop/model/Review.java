@@ -13,10 +13,9 @@ public class Review {
     private String userId;
     private String productId;
     private String text;
-    private int rating; // Рейтинг отзыва (например, от 1 до 5)
+    private int rating;
     private Date createdAt;
 
-    // Геттеры, сеттеры, конструкторы
 
     public Review(String userId, String productId, String text, int rating) {
         this.userId = userId;
