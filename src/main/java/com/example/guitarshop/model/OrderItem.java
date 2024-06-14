@@ -7,8 +7,6 @@ public class OrderItem {
     private int quantity;
     private double price;
 
-    // Геттеры, сеттеры, конструкторы
-
     public OrderItem(String productId, String productName, int quantity, double price) {
         this.productId = productId;
         this.productName = productName;
