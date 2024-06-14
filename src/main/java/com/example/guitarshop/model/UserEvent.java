@@ -11,11 +11,10 @@ public class UserEvent {
     private String userId;
     private String eventName;
     private String details;
-    private String pageId; // Идентификатор страницы
-    private String productId; // Идентификатор продукта
-    private String actionType; // Тип действия (например, "AddToCart", "OrderPlaced", "LeaveReview")
+    private String pageId;
+    private String productId;
+    private String actionType;
 
-    // Конструкторы, геттеры, сеттеры
 
     public UserEvent(String userId, String eventName, String details, String pageId, String productId, String actionType) {
         this.userId = userId;
